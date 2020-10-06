@@ -5,7 +5,7 @@ project(esptestlibproj C CXX)
 include_directories(src)
 
 add_library(esptestlib src/tryingthis.cpp)
-target_include_directories(esptestlib PUBLIC src/tringthis.hpp)
+target_include_directories(esptestlib PUBLIC src/tryingthis.hpp)
 
 # target_sources(esptestlib PRIVATE src/tryingthis.hpp) # for intellisense
 # target_compile_features(esptestlib PUBLIC cxx_std_11)
